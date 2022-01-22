@@ -1,0 +1,73 @@
+body{
+    background:linear-gradient(to left, #fafff6, #faf0ed) ;
+}
+
+h1{
+    text-align: center;
+    font-family:Tahoma, sans-serif;
+    font-size:50px;
+    font-weight: bold;
+}
+
+h3{
+    text-align: center;
+    font-weight:normal;
+    font-size:20px;
+    font-family:Tahoma, sans-serif;
+}
+
+.container{
+    width:750px;
+    height:450px;
+    background: rgb(248, 224, 199);
+    box-shadow: 1px 1px 8px black;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
+.grocery-input{
+    outline:none;
+    width:600px;
+    border:none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    margin:20px 70px;
+    font-size: 30px;
+    text-align:center;
+    font-family:Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.add-btn{
+    border:none;
+    border-radius:25px;
+    width:280px;
+    height:50px;
+    margin:0px 229px;
+    border:3px solid black;
+    font-family:Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    background: transparent;
+    opacity:75%;
+}
+
+.add-btn:hover{
+    opacity:100%;
+    cursor: pointer;
+}
+
+.add-btn:active{
+    box-shadow: 1px 1px 8px black;
+}
+
+/* For Output area*/
+
+p{
+    text-align:center;
+    font-family:Tahoma, sans-serif;
+    font-size:25px;
+    font-weight:lighter;
+    cursor: pointer;
+}
